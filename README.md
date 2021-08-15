@@ -17,6 +17,7 @@ We say: *Want to decentralize your social media content? Just dunp it here!* :)
 - **Any EVM based blockchain**: can take care of the business model, as all data is provably signed by the owner of that account, but out of scope of this layer
 - **web3.storage**, **nft.storage**, **Piñata**: apps can subscribe to any of the integrated IPFS+Filecoin storage providers, and have their users data replicated
 - **Filecoin**: Used indirectly by the pinning/replication services to incentivise permanent data storage
+- **ENS**: ENS names are the preferred way to register and resolve global profile names for all apps using the protocol
 
 ### Innovations
 
