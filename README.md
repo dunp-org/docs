@@ -23,7 +23,7 @@ We say: *Want to decentralize your social media content? Just dunp it here!* :)
 
 - Users can login using username and password, and an ethereum account will be generated for them without them even knowing what a key is. Savvy users can use Metamask, or other wallet/signers in the future, but not mandatory.
 - Ethereum keys/seeds/mnemonics are not saved ever. They are generated and used to sign a Decentralized IDentity (DID), then that identity is stored temporarily in browser to sign further user data. The user can choose to export mnemonic / keys when he so desires to improve data security.
-- All user data belongs to the user, no exeptions. Apps are views over user data and incentive mechanisms applied to that data.
+- All user data belongs to the user, no exceptions. Apps are views over user data and incentive mechanisms applied to that data.
 - All data is content addressed and id resolved by the peers, so that we can have shorter links in apps frontends.
 - User data is organized in portfolios, by content type, so same content can be available to various apps that handle that type of content.
 - Apps can run their resolvers, ipfs pin nodes and replicators, in order to improve network data availability, but not mandatory and they can never change or remove users data.
@@ -55,6 +55,8 @@ Other identity providers coming soon... like wallet-connect, for instance [TBD]
 ### @dunp/data
 
 This package handles the social networking data layer.
+
+These are the several components identified for this module, but still work in progress:
 
 - **settings**
 
@@ -184,7 +186,7 @@ This package handles the social networking data layer.
     }
     ```
 
-- **favorites**:
+- **favorites**
 
     Each profile has a list of favorite content by portfolio type.
 
@@ -263,25 +265,22 @@ This package handles the social networking data layer.
 
 - **notifications**
 
-    create the best notification mechanism...
+    create the best notification mechanism... [TBC]
 
 - **processing**
 
     app specific organized by profile and portfolio, so that only wanted content is replicated. matches cid from original content to cid of processed content entry
 
-    global database?
+    global database? [TBC]
 
 - **statistics**
 
-    RFU
-    Public database for content statistics, where everyone can add plays or other stats for each content on the network.
+    Public database for content statistics, where everyone can add plays or other stats for each content on the network. [TBC]
 
 - **feeds**
 
     tags, type, categories, user, subs, etc... app specific algo
-
-    RFU
-    Generates a content feed to be rendered by the social app.
+    Generates a content feed to be rendered by the social app. [TBC]
 
 
 ### @dunp/resolver
@@ -296,7 +295,12 @@ Interface to the pinning services to be integrated in dunp, so that all data get
 
 ### @dunp/replicator/web3.storage
 
+[TBC]
+
 ### @dunp/replicator/nft.storage
+
+[TBC]
 
 ### @dunp/replicator/pinata
 
+[TBC]
