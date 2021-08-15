@@ -22,13 +22,13 @@ We say: *Want to decentralize your social media content? Just dunp it here!* :)
 ### Innovations
 
 - Users can login using username and password, and an ethereum account will be generated for them without them even knowing what a key is. Savvy users can use Metamask, or other wallet/signers in the future, but not mandatory.
-- Ethereum keys/seeds/mnemonics are not saved ever. They are generated and used to sign a Decentralized IDentity (DID), then that identity is stored temporarily in browser to sign further user data. The user can choose to export mnemonic / keys when he so desires to improve data security.
+- Ethereum keys/seeds/mnemonics are not saved... Ever. They are deterministically generated and used to sign a Decentralized IDentity (DID), then that identity is stored temporarily in browser to sign further user data. The user can choose to export mnemonic / keys when he so desires to improve data security.
 - All user data belongs to the user, no exceptions. Apps are views over user data and incentive mechanisms applied to that data.
 - All data is content addressed and id resolved by the peers, so that we can have shorter links in apps frontends.
 - User data is organized in portfolios, by content type, so same content can be available to various apps that handle that type of content.
 - Apps can run their resolvers, ipfs pin nodes and replicators, in order to improve network data availability, but not mandatory and they can never change or remove users data.
 - Apps can choose to have their user data replicated to services like web3.storage or Piñata, to keep users data backed up and improve availability.
-- dunp protocol is opensource, and provides an SDK for apps to use. This aims to facilitate the use of web3 technologies for all developers.
+- dunp protocol is opensource, and provides an SDK for apps to use. This aims to facilitate the use of web3 technologies for all developers. The SDK is very developer friendly and allows integration in hours, not months.
 
 
 ## Architecture
